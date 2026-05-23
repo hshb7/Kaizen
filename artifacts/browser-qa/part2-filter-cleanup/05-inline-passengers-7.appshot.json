@@ -1,0 +1,68 @@
+{
+  "name": "05-inline-passengers-7",
+  "note": "Clicked visible passenger count, typed 7, and passenger slider/results updated.",
+  "state": {
+    "text": "Kaizen Wheels\nReservation dates\nMay 22, 2026 - May 23, 2026\nPick-up time\n9:00 PM\nDrop-off time\n9:00 PM\nFilters\nPrice\n$10\nto\nAny\nPassengers\n7\nClass\nAny class\nMake\nAny make\nReset all\n\n3 vehicles available\n\nSort\nRecommended\nHyundai Santa Fe\nYear\n2022\nClass\nSUV\nPassengers\n7\nDoors\n5\n\n$72/hr\n\n$1,728\nestimated total\n\nBook now\nMazda CX-9\nYear\n2024\nClass\nSUV\nPassengers\n7\nDoors\n5\n\n$70/hr\n\n$1,680\nestimated total\n\nBook now\nChrysler Pacifica\nYear\n2024\nClass\nMinivan\nPassengers\n8\nDoors\n5\n\n$80/hr\n\n$1,920\nestimated total\n\nBook now",
+    "hasPickupDateLabel": false,
+    "hasDropoffDateLabel": false,
+    "hasExactMaxLabel": false,
+    "hasExactPassengersLabel": false,
+    "reservationDateText": "May 22, 2026 - May 23, 2026",
+    "filterButtons": [
+      "$10",
+      "Any",
+      "7",
+      "Any class",
+      "Any make"
+    ],
+    "visibleInputs": [],
+    "sliders": [
+      {
+        "value": "10",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "250",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "7",
+        "min": "1",
+        "max": "10"
+      }
+    ],
+    "menuItems": [],
+    "resultCountText": "3 vehicles available",
+    "cards": [
+      {
+        "name": "Hyundai Santa Fe",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$72/hr",
+        "totals": [
+          "$1,728"
+        ]
+      },
+      {
+        "name": "Mazda CX-9",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$70/hr",
+        "totals": [
+          "$1,680"
+        ]
+      },
+      {
+        "name": "Chrysler Pacifica",
+        "class": "Minivan",
+        "passengers": 8,
+        "hourly": "$80/hr",
+        "totals": [
+          "$1,920"
+        ]
+      }
+    ]
+  }
+}

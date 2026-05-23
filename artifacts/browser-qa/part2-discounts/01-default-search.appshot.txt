@@ -1,0 +1,163 @@
+Kaizen Wheels
+Pick-up date
+May 22nd, 2026
+Pick-up time
+8:00 PM
+Drop-off date
+May 23rd, 2026
+Drop-off time
+8:00 PM
+Filters
+Price
+$10 to Any
+Passengers
+1
+Class
+Compact
+Luxury
+Minivan
+SUV
+Sports
+Subcompact
+Make
+BMW
+Chevrolet
+Chrysler
+Ford
+Honda
+Hyundai
+Jeep
+Mazda
+Mercedes-Benz
+Nissan
+Toyota
+Volkswagen
+Reset all
+Ford Mustang
+Year
+2022
+Class
+Sports
+Passengers
+4
+Doors
+2
+
+$3,840
+estimated total
+
+$160/hr/24 hr
+
+Book now
+Nissan Rogue
+Year
+2021
+Class
+SUV
+Passengers
+5
+Doors
+5
+
+$1,392
+estimated total
+
+$58/hr/24 hr
+
+Book now
+Hyundai Santa Fe
+Year
+2022
+Class
+SUV
+Passengers
+7
+Doors
+5
+
+$1,728
+estimated total
+
+$72/hr/24 hr
+
+Book now
+Volkswagen Golf
+Year
+2023
+Class
+Compact
+Passengers
+5
+Doors
+5
+
+$1,344
+estimated total
+
+$56/hr/24 hr
+
+Book now
+Mercedes-Benz C-Class
+Year
+2024
+Class
+Luxury
+Passengers
+5
+Doors
+4
+
+$5,280
+estimated total
+
+$220/hr/24 hr
+
+Book now
+Mazda CX-9
+Year
+2024
+Class
+SUV
+Passengers
+7
+Doors
+5
+
+$1,680
+estimated total
+
+$70/hr/24 hr
+
+Book now
+Chrysler Pacifica
+Year
+2024
+Class
+Minivan
+Passengers
+8
+Doors
+5
+
+$1,920
+estimated total
+
+$80/hr/24 hr
+
+Book now
+Jeep Wrangler
+Year
+2021
+Class
+SUV
+Passengers
+5
+Doors
+4
+
+$2,040
+estimated total
+
+$85/hr/24 hr
+
+Book now

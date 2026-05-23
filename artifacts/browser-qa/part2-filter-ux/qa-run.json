@@ -1,0 +1,956 @@
+[
+  {
+    "name": "01-default-filters",
+    "note": "Default state: class/make are opt-in unchecked and results still render.",
+    "resultCountText": "8 vehicles available",
+    "sortLabel": "Recommended",
+    "inputs": [
+      {
+        "value": "",
+        "placeholder": "Any"
+      },
+      {
+        "value": "1",
+        "placeholder": ""
+      }
+    ],
+    "sliders": [
+      {
+        "value": "10",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "250",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "1",
+        "min": "1",
+        "max": "10"
+      }
+    ],
+    "classToggles": {
+      "Compact": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Luxury": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Minivan": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "SUV": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Sports": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Subcompact": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      }
+    },
+    "cards": [
+      {
+        "name": "Ford Mustang",
+        "class": "Sports",
+        "passengers": 4,
+        "hourly": "$160/hr",
+        "totals": [
+          "$3,840"
+        ]
+      },
+      {
+        "name": "Nissan Rogue",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$58/hr",
+        "totals": [
+          "$1,392"
+        ]
+      },
+      {
+        "name": "Hyundai Santa Fe",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$72/hr",
+        "totals": [
+          "$1,728"
+        ]
+      },
+      {
+        "name": "Volkswagen Golf",
+        "class": "Compact",
+        "passengers": 5,
+        "hourly": "$56/hr",
+        "totals": [
+          "$1,344"
+        ]
+      },
+      {
+        "name": "Mercedes-Benz C-Class",
+        "class": "Luxury",
+        "passengers": 5,
+        "hourly": "$220/hr",
+        "totals": [
+          "$5,280"
+        ]
+      },
+      {
+        "name": "Mazda CX-9",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$70/hr",
+        "totals": [
+          "$1,680"
+        ]
+      },
+      {
+        "name": "Chrysler Pacifica",
+        "class": "Minivan",
+        "passengers": 8,
+        "hourly": "$80/hr",
+        "totals": [
+          "$1,920"
+        ]
+      },
+      {
+        "name": "Jeep Wrangler",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$85/hr",
+        "totals": [
+          "$2,040"
+        ]
+      }
+    ],
+    "screenshot": "artifacts/browser-qa/part2-filter-ux/01-default-filters.png",
+    "appshot": "artifacts/browser-qa/part2-filter-ux/01-default-filters.appshot.json"
+  },
+  {
+    "name": "02-suv-filter",
+    "note": "Selected SUV class filter.",
+    "resultCountText": "4 vehicles available",
+    "sortLabel": "Recommended",
+    "inputs": [
+      {
+        "value": "",
+        "placeholder": "Any"
+      },
+      {
+        "value": "1",
+        "placeholder": ""
+      }
+    ],
+    "sliders": [
+      {
+        "value": "10",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "250",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "1",
+        "min": "1",
+        "max": "10"
+      }
+    ],
+    "classToggles": {
+      "Compact": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Luxury": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Minivan": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "SUV": {
+        "ariaPressed": "true",
+        "dataState": "on"
+      },
+      "Sports": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Subcompact": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      }
+    },
+    "cards": [
+      {
+        "name": "Nissan Rogue",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$58/hr",
+        "totals": [
+          "$1,392"
+        ]
+      },
+      {
+        "name": "Hyundai Santa Fe",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$72/hr",
+        "totals": [
+          "$1,728"
+        ]
+      },
+      {
+        "name": "Mazda CX-9",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$70/hr",
+        "totals": [
+          "$1,680"
+        ]
+      },
+      {
+        "name": "Jeep Wrangler",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$85/hr",
+        "totals": [
+          "$2,040"
+        ]
+      }
+    ],
+    "screenshot": "artifacts/browser-qa/part2-filter-ux/02-suv-filter.png",
+    "appshot": "artifacts/browser-qa/part2-filter-ux/02-suv-filter.appshot.json"
+  },
+  {
+    "name": "03-suv-compact-filter",
+    "note": "Added Compact class filter to broaden selected classes.",
+    "resultCountText": "5 vehicles available",
+    "sortLabel": "Recommended",
+    "inputs": [
+      {
+        "value": "",
+        "placeholder": "Any"
+      },
+      {
+        "value": "1",
+        "placeholder": ""
+      }
+    ],
+    "sliders": [
+      {
+        "value": "10",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "250",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "1",
+        "min": "1",
+        "max": "10"
+      }
+    ],
+    "classToggles": {
+      "Compact": {
+        "ariaPressed": "true",
+        "dataState": "on"
+      },
+      "Luxury": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Minivan": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "SUV": {
+        "ariaPressed": "true",
+        "dataState": "on"
+      },
+      "Sports": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Subcompact": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      }
+    },
+    "cards": [
+      {
+        "name": "Nissan Rogue",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$58/hr",
+        "totals": [
+          "$1,392"
+        ]
+      },
+      {
+        "name": "Hyundai Santa Fe",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$72/hr",
+        "totals": [
+          "$1,728"
+        ]
+      },
+      {
+        "name": "Volkswagen Golf",
+        "class": "Compact",
+        "passengers": 5,
+        "hourly": "$56/hr",
+        "totals": [
+          "$1,344"
+        ]
+      },
+      {
+        "name": "Mazda CX-9",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$70/hr",
+        "totals": [
+          "$1,680"
+        ]
+      },
+      {
+        "name": "Jeep Wrangler",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$85/hr",
+        "totals": [
+          "$2,040"
+        ]
+      }
+    ],
+    "screenshot": "artifacts/browser-qa/part2-filter-ux/03-suv-compact-filter.png",
+    "appshot": "artifacts/browser-qa/part2-filter-ux/03-suv-compact-filter.appshot.json"
+  },
+  {
+    "name": "04-price-max-100",
+    "note": "Typed exact $100 max price.",
+    "resultCountText": "6 vehicles available",
+    "sortLabel": "Recommended",
+    "inputs": [
+      {
+        "value": "100",
+        "placeholder": "Any"
+      },
+      {
+        "value": "1",
+        "placeholder": ""
+      }
+    ],
+    "sliders": [
+      {
+        "value": "10",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "100",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "1",
+        "min": "1",
+        "max": "10"
+      }
+    ],
+    "classToggles": {
+      "Compact": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Luxury": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Minivan": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "SUV": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Sports": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Subcompact": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      }
+    },
+    "cards": [
+      {
+        "name": "Nissan Rogue",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$58/hr",
+        "totals": [
+          "$1,392"
+        ]
+      },
+      {
+        "name": "Hyundai Santa Fe",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$72/hr",
+        "totals": [
+          "$1,728"
+        ]
+      },
+      {
+        "name": "Volkswagen Golf",
+        "class": "Compact",
+        "passengers": 5,
+        "hourly": "$56/hr",
+        "totals": [
+          "$1,344"
+        ]
+      },
+      {
+        "name": "Mazda CX-9",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$70/hr",
+        "totals": [
+          "$1,680"
+        ]
+      },
+      {
+        "name": "Chrysler Pacifica",
+        "class": "Minivan",
+        "passengers": 8,
+        "hourly": "$80/hr",
+        "totals": [
+          "$1,920"
+        ]
+      },
+      {
+        "name": "Jeep Wrangler",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$85/hr",
+        "totals": [
+          "$2,040"
+        ]
+      }
+    ],
+    "screenshot": "artifacts/browser-qa/part2-filter-ux/04-price-max-100.png",
+    "appshot": "artifacts/browser-qa/part2-filter-ux/04-price-max-100.appshot.json"
+  },
+  {
+    "name": "05-price-any-restored",
+    "note": "Cleared exact max price input back to Any.",
+    "resultCountText": "8 vehicles available",
+    "sortLabel": "Recommended",
+    "inputs": [
+      {
+        "value": "",
+        "placeholder": "Any"
+      },
+      {
+        "value": "1",
+        "placeholder": ""
+      }
+    ],
+    "sliders": [
+      {
+        "value": "10",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "250",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "1",
+        "min": "1",
+        "max": "10"
+      }
+    ],
+    "classToggles": {
+      "Compact": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Luxury": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Minivan": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "SUV": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Sports": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Subcompact": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      }
+    },
+    "cards": [
+      {
+        "name": "Ford Mustang",
+        "class": "Sports",
+        "passengers": 4,
+        "hourly": "$160/hr",
+        "totals": [
+          "$3,840"
+        ]
+      },
+      {
+        "name": "Nissan Rogue",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$58/hr",
+        "totals": [
+          "$1,392"
+        ]
+      },
+      {
+        "name": "Hyundai Santa Fe",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$72/hr",
+        "totals": [
+          "$1,728"
+        ]
+      },
+      {
+        "name": "Volkswagen Golf",
+        "class": "Compact",
+        "passengers": 5,
+        "hourly": "$56/hr",
+        "totals": [
+          "$1,344"
+        ]
+      },
+      {
+        "name": "Mercedes-Benz C-Class",
+        "class": "Luxury",
+        "passengers": 5,
+        "hourly": "$220/hr",
+        "totals": [
+          "$5,280"
+        ]
+      },
+      {
+        "name": "Mazda CX-9",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$70/hr",
+        "totals": [
+          "$1,680"
+        ]
+      },
+      {
+        "name": "Chrysler Pacifica",
+        "class": "Minivan",
+        "passengers": 8,
+        "hourly": "$80/hr",
+        "totals": [
+          "$1,920"
+        ]
+      },
+      {
+        "name": "Jeep Wrangler",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$85/hr",
+        "totals": [
+          "$2,040"
+        ]
+      }
+    ],
+    "screenshot": "artifacts/browser-qa/part2-filter-ux/05-price-any-restored.png",
+    "appshot": "artifacts/browser-qa/part2-filter-ux/05-price-any-restored.appshot.json"
+  },
+  {
+    "name": "06-passengers-7",
+    "note": "Typed exact minimum passenger count of 7.",
+    "resultCountText": "3 vehicles available",
+    "sortLabel": "Recommended",
+    "inputs": [
+      {
+        "value": "",
+        "placeholder": "Any"
+      },
+      {
+        "value": "7",
+        "placeholder": ""
+      }
+    ],
+    "sliders": [
+      {
+        "value": "10",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "250",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "7",
+        "min": "1",
+        "max": "10"
+      }
+    ],
+    "classToggles": {
+      "Compact": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Luxury": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Minivan": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "SUV": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Sports": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Subcompact": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      }
+    },
+    "cards": [
+      {
+        "name": "Hyundai Santa Fe",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$72/hr",
+        "totals": [
+          "$1,728"
+        ]
+      },
+      {
+        "name": "Mazda CX-9",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$70/hr",
+        "totals": [
+          "$1,680"
+        ]
+      },
+      {
+        "name": "Chrysler Pacifica",
+        "class": "Minivan",
+        "passengers": 8,
+        "hourly": "$80/hr",
+        "totals": [
+          "$1,920"
+        ]
+      }
+    ],
+    "screenshot": "artifacts/browser-qa/part2-filter-ux/06-passengers-7.png",
+    "appshot": "artifacts/browser-qa/part2-filter-ux/06-passengers-7.appshot.json"
+  },
+  {
+    "name": "07-sort-lowest",
+    "note": "Selected lowest estimated total sort.",
+    "resultCountText": "8 vehicles available",
+    "sortLabel": "Lowest price",
+    "inputs": [
+      {
+        "value": "",
+        "placeholder": "Any"
+      },
+      {
+        "value": "1",
+        "placeholder": ""
+      }
+    ],
+    "sliders": [
+      {
+        "value": "10",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "250",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "1",
+        "min": "1",
+        "max": "10"
+      }
+    ],
+    "classToggles": {
+      "Compact": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Luxury": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Minivan": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "SUV": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Sports": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Subcompact": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      }
+    },
+    "cards": [
+      {
+        "name": "Volkswagen Golf",
+        "class": "Compact",
+        "passengers": 5,
+        "hourly": "$56/hr",
+        "totals": [
+          "$1,344"
+        ]
+      },
+      {
+        "name": "Nissan Rogue",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$58/hr",
+        "totals": [
+          "$1,392"
+        ]
+      },
+      {
+        "name": "Mazda CX-9",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$70/hr",
+        "totals": [
+          "$1,680"
+        ]
+      },
+      {
+        "name": "Hyundai Santa Fe",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$72/hr",
+        "totals": [
+          "$1,728"
+        ]
+      },
+      {
+        "name": "Chrysler Pacifica",
+        "class": "Minivan",
+        "passengers": 8,
+        "hourly": "$80/hr",
+        "totals": [
+          "$1,920"
+        ]
+      },
+      {
+        "name": "Jeep Wrangler",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$85/hr",
+        "totals": [
+          "$2,040"
+        ]
+      },
+      {
+        "name": "Ford Mustang",
+        "class": "Sports",
+        "passengers": 4,
+        "hourly": "$160/hr",
+        "totals": [
+          "$3,840"
+        ]
+      },
+      {
+        "name": "Mercedes-Benz C-Class",
+        "class": "Luxury",
+        "passengers": 5,
+        "hourly": "$220/hr",
+        "totals": [
+          "$5,280"
+        ]
+      }
+    ],
+    "screenshot": "artifacts/browser-qa/part2-filter-ux/07-sort-lowest.png",
+    "appshot": "artifacts/browser-qa/part2-filter-ux/07-sort-lowest.appshot.json"
+  },
+  {
+    "name": "08-sort-highest",
+    "note": "Selected highest estimated total sort.",
+    "resultCountText": "8 vehicles available",
+    "sortLabel": "Highest price",
+    "inputs": [
+      {
+        "value": "",
+        "placeholder": "Any"
+      },
+      {
+        "value": "1",
+        "placeholder": ""
+      }
+    ],
+    "sliders": [
+      {
+        "value": "10",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "250",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "1",
+        "min": "1",
+        "max": "10"
+      }
+    ],
+    "classToggles": {
+      "Compact": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Luxury": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Minivan": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "SUV": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Sports": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      },
+      "Subcompact": {
+        "ariaPressed": "false",
+        "dataState": "off"
+      }
+    },
+    "cards": [
+      {
+        "name": "Mercedes-Benz C-Class",
+        "class": "Luxury",
+        "passengers": 5,
+        "hourly": "$220/hr",
+        "totals": [
+          "$5,280"
+        ]
+      },
+      {
+        "name": "Ford Mustang",
+        "class": "Sports",
+        "passengers": 4,
+        "hourly": "$160/hr",
+        "totals": [
+          "$3,840"
+        ]
+      },
+      {
+        "name": "Jeep Wrangler",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$85/hr",
+        "totals": [
+          "$2,040"
+        ]
+      },
+      {
+        "name": "Chrysler Pacifica",
+        "class": "Minivan",
+        "passengers": 8,
+        "hourly": "$80/hr",
+        "totals": [
+          "$1,920"
+        ]
+      },
+      {
+        "name": "Hyundai Santa Fe",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$72/hr",
+        "totals": [
+          "$1,728"
+        ]
+      },
+      {
+        "name": "Mazda CX-9",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$70/hr",
+        "totals": [
+          "$1,680"
+        ]
+      },
+      {
+        "name": "Nissan Rogue",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$58/hr",
+        "totals": [
+          "$1,392"
+        ]
+      },
+      {
+        "name": "Volkswagen Golf",
+        "class": "Compact",
+        "passengers": 5,
+        "hourly": "$56/hr",
+        "totals": [
+          "$1,344"
+        ]
+      }
+    ],
+    "screenshot": "artifacts/browser-qa/part2-filter-ux/08-sort-highest.png",
+    "appshot": "artifacts/browser-qa/part2-filter-ux/08-sort-highest.appshot.json"
+  }
+]

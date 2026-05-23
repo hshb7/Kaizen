@@ -1,0 +1,25 @@
+{
+  "state": {
+    "url": "http://localhost:3000/review?id=3&start=2026-05-23T04%3A00%3A00.000Z&end=2026-05-24T04%3A00%3A00.000Z",
+    "bodyText": "Almost there\n\nYour adventure is about to begin! Please confirm your reservation below.\n\nFord Mustang\nYear\n2022\nPassengers\n4\nClass\nSports\nReservation Summary\nHourly Rate\n$160/hr\nDuration\n1 day\nSubtotal\n$3,840\nTotal Cost\n$3,840\nPick-up\n\nMay 22, 2026, 9:00:00 PM\n\nRental period\n\nDrop-off\n\nMay 23, 2026, 9:00:00 PM\n\nConfirm reservation",
+    "confirmButton": "Confirm reservation",
+    "confirmDisabled": false,
+    "statusText": [],
+    "title": "Almost there"
+  },
+  "consoleEvents": [
+    {
+      "type": "info",
+      "args": [
+        "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools",
+        "font-weight:bold"
+      ]
+    },
+    {
+      "type": "log",
+      "args": [
+        "[HMR] connected"
+      ]
+    }
+  ]
+}

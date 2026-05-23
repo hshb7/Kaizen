@@ -1,0 +1,275 @@
+Kaizen Wheels
+Pick-up date
+June 15th, 2026
+Pick-up time
+8:00 PM
+Drop-off date
+June 17th, 2026
+Drop-off time
+8:00 PM
+Filters
+Price
+$10 to Any
+Passengers
+1
+Class
+Compact
+Luxury
+Minivan
+SUV
+Sports
+Subcompact
+Make
+BMW
+Chevrolet
+Chrysler
+Ford
+Honda
+Hyundai
+Jeep
+Mazda
+Mercedes-Benz
+Nissan
+Toyota
+Volkswagen
+Reset all
+Toyota Corolla
+Year
+2020
+Class
+Compact
+Passengers
+5
+Doors
+4
+
+$1,792.80
+estimated total
+
+Holiday discount
+
+$45/hr/48 hr
+
+Save $367.20
+
+Book now
+Honda Civic
+Year
+2021
+Class
+Compact
+Passengers
+5
+Doors
+4
+
+$1,673.28
+estimated total
+
+Holiday discount
+
+$42/hr/48 hr
+
+Save $342.72
+
+Book now
+Ford Mustang
+Year
+2022
+Class
+Sports
+Passengers
+4
+Doors
+2
+
+$6,374.40
+estimated total
+
+Holiday discount
+
+$160/hr/48 hr
+
+Save $1,305.60
+
+Book now
+Chevrolet Spark
+Year
+2020
+Class
+Subcompact
+Passengers
+4
+Doors
+4
+
+$1,274.88
+estimated total
+
+Holiday discount
+
+$32/hr/48 hr
+
+Save $261.12
+
+Book now
+Nissan Rogue
+Year
+2021
+Class
+SUV
+Passengers
+5
+Doors
+5
+
+$2,310.72
+estimated total
+
+Holiday discount
+
+$58/hr/48 hr
+
+Save $473.28
+
+Book now
+Hyundai Santa Fe
+Year
+2022
+Class
+SUV
+Passengers
+7
+Doors
+5
+
+$2,868.48
+estimated total
+
+Holiday discount
+
+$72/hr/48 hr
+
+Save $587.52
+
+Book now
+Volkswagen Golf
+Year
+2023
+Class
+Compact
+Passengers
+5
+Doors
+5
+
+$2,231.04
+estimated total
+
+Holiday discount
+
+$56/hr/48 hr
+
+Save $456.96
+
+Book now
+Mercedes-Benz C-Class
+Year
+2024
+Class
+Luxury
+Passengers
+5
+Doors
+4
+
+$8,764.80
+estimated total
+
+Holiday discount
+
+$220/hr/48 hr
+
+Save $1,795.20
+
+Book now
+BMW X5
+Year
+2024
+Class
+SUV
+Passengers
+5
+Doors
+4
+
+$6,772.80
+estimated total
+
+Holiday discount
+
+$170/hr/48 hr
+
+Save $1,387.20
+
+Book now
+Mazda CX-9
+Year
+2024
+Class
+SUV
+Passengers
+7
+Doors
+5
+
+$2,788.80
+estimated total
+
+Holiday discount
+
+$70/hr/48 hr
+
+Save $571.20
+
+Book now
+Chrysler Pacifica
+Year
+2024
+Class
+Minivan
+Passengers
+8
+Doors
+5
+
+$3,187.20
+estimated total
+
+Holiday discount
+
+$80/hr/48 hr
+
+Save $652.80
+
+Book now
+Jeep Wrangler
+Year
+2021
+Class
+SUV
+Passengers
+5
+Doors
+4
+
+$3,386.40
+estimated total
+
+Holiday discount
+
+$85/hr/48 hr
+
+Save $693.60
+
+Book now

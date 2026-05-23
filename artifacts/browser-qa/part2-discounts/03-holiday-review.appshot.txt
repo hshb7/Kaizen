@@ -1,0 +1,33 @@
+Almost there
+
+Your adventure is about to begin! Please confirm your reservation below.
+
+Nissan Rogue
+Year
+2021
+Passengers
+5
+Class
+SUV
+Reservation Summary
+Hourly Rate
+$58/hr
+Duration
+2 days
+Subtotal
+$2,784
+Holiday discount
+-$473.28
+Total Cost
+$2,310.72
+Pick-up
+
+Jun 15, 2026, 8:00:00 PM
+
+Rental period
+
+Drop-off
+
+Jun 17, 2026, 8:00:00 PM
+
+Confirm reservation

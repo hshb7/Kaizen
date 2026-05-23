@@ -1,0 +1,23 @@
+{
+  "appUrl": "http://localhost:3000/",
+  "recording": "unavailable: Browser plugin recording/trace support was not exposed; Chrome CDP rendered screenshots and appshot text were generated.",
+  "scenarios": [
+    {
+      "name": "discounted card without normal-total label",
+      "expected": "Discounted card keeps struck-through original total and green discounted estimated total, without normal-total label or discount copy.",
+      "observed": "Nissan Rogue / Year / 2021 / Class / SUV / Passengers / 5 / Doors / 5 / $58/hr / $2,784 / $2,310.72 / estimated total / Book now",
+      "status": "PASS"
+    }
+  ],
+  "presentationDetails": {
+    "text": "Nissan Rogue / Year / 2021 / Class / SUV / Passengers / 5 / Doors / 5 / $58/hr / $2,784 / $2,310.72 / estimated total / Book now",
+    "hasLineThrough": true,
+    "lineThroughText": "$2,784",
+    "hasNormalLabel": false,
+    "hasDiscountCopy": false
+  },
+  "artifacts": [
+    "artifacts/browser-qa/part2-light-search-card/02-discounted-card.png",
+    "artifacts/browser-qa/part2-light-search-card/02-discounted-card.appshot.txt"
+  ]
+}

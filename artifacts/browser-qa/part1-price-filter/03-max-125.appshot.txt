@@ -1,0 +1,141 @@
+- heading "Kaizen Wheels" [level=1]
+- text: Pick-up date
+- button "Pick-up date":
+  - text: May 22nd, 2026
+- text: Pick-up time
+- combobox:
+  - generic: 7:30 PM
+- text: Drop-off date
+- button "Drop-off date":
+  - text: May 23rd, 2026
+- text: Drop-off time
+- combobox:
+  - generic: 7:30 PM
+- heading "Filters" [level=3]
+- generic: Price
+- generic: $10 to $125
+- slider "Minimum"
+- slider "Maximum" [active]
+- generic: Passengers
+- generic: "1"
+- slider
+- text: Class
+- button "Compact" [pressed]:
+  - generic: Compact
+- button "Luxury" [pressed]:
+  - generic: Luxury
+- button "Minivan" [pressed]:
+  - generic: Minivan
+- button "SUV" [pressed]:
+  - generic: SUV
+- button "Sports" [pressed]:
+  - generic: Sports
+- button "Subcompact" [pressed]:
+  - generic: Subcompact
+- text: Make
+- button "BMW" [pressed]:
+  - generic: BMW
+- button "Chevrolet" [pressed]:
+  - generic: Chevrolet
+- button "Chrysler" [pressed]:
+  - generic: Chrysler
+- button "Ford" [pressed]:
+  - generic: Ford
+- button "Honda" [pressed]:
+  - generic: Honda
+- button "Hyundai" [pressed]:
+  - generic: Hyundai
+- button "Jeep" [pressed]:
+  - generic: Jeep
+- button "Mazda" [pressed]:
+  - generic: Mazda
+- button "Mercedes-Benz" [pressed]:
+  - generic: Mercedes-Benz
+- button "Nissan" [pressed]:
+  - generic: Nissan
+- button "Toyota" [pressed]:
+  - generic: Toyota
+- button "Volkswagen" [pressed]:
+  - generic: Volkswagen
+- button "Reset all"
+- list:
+  - img "Nissan"
+  - heading "Nissan Rogue" [level=3]
+  - term: Year
+  - definition: "2021"
+  - term: Class
+  - definition: SUV
+  - term: Passengers
+  - definition: "5"
+  - term: Doors
+  - definition: "5"
+  - paragraph: $58/hr
+  - link "Book now":
+    - /url: /review?id=5&start=2026-05-23T02%3A30%3A00.000Z&end=2026-05-24T02%3A30%3A00.000Z
+  - img "Hyundai"
+  - heading "Hyundai Santa Fe" [level=3]
+  - term: Year
+  - definition: "2022"
+  - term: Class
+  - definition: SUV
+  - term: Passengers
+  - definition: "7"
+  - term: Doors
+  - definition: "5"
+  - paragraph: $72/hr
+  - link "Book now":
+    - /url: /review?id=6&start=2026-05-23T02%3A30%3A00.000Z&end=2026-05-24T02%3A30%3A00.000Z
+  - img "Volkswagen"
+  - heading "Volkswagen Golf" [level=3]
+  - term: Year
+  - definition: "2023"
+  - term: Class
+  - definition: Compact
+  - term: Passengers
+  - definition: "5"
+  - term: Doors
+  - definition: "5"
+  - paragraph: $56/hr
+  - link "Book now":
+    - /url: /review?id=7&start=2026-05-23T02%3A30%3A00.000Z&end=2026-05-24T02%3A30%3A00.000Z
+  - img "Mazda"
+  - heading "Mazda CX-9" [level=3]
+  - term: Year
+  - definition: "2024"
+  - term: Class
+  - definition: SUV
+  - term: Passengers
+  - definition: "7"
+  - term: Doors
+  - definition: "5"
+  - paragraph: $70/hr
+  - link "Book now":
+    - /url: /review?id=10&start=2026-05-23T02%3A30%3A00.000Z&end=2026-05-24T02%3A30%3A00.000Z
+  - img "Chrysler"
+  - heading "Chrysler Pacifica" [level=3]
+  - term: Year
+  - definition: "2024"
+  - term: Class
+  - definition: Minivan
+  - term: Passengers
+  - definition: "8"
+  - term: Doors
+  - definition: "5"
+  - paragraph: $80/hr
+  - link "Book now":
+    - /url: /review?id=11&start=2026-05-23T02%3A30%3A00.000Z&end=2026-05-24T02%3A30%3A00.000Z
+  - img "Jeep"
+  - heading "Jeep Wrangler" [level=3]
+  - term: Year
+  - definition: "2021"
+  - term: Class
+  - definition: SUV
+  - term: Passengers
+  - definition: "5"
+  - term: Doors
+  - definition: "4"
+  - paragraph: $85/hr
+  - link "Book now":
+    - /url: /review?id=12&start=2026-05-23T02%3A30%3A00.000Z&end=2026-05-24T02%3A30%3A00.000Z
+- button "Open Next.js Dev Tools":
+- alert

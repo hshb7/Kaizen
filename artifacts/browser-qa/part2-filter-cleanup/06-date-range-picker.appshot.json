@@ -1,0 +1,11 @@
+{
+  "name": "06-date-range-picker",
+  "note": "Selected May 24 to May 26 in one date-range calendar interaction.",
+  "state": {
+    "bodyText": "Kaizen Wheels\nReservation dates\nMay 24, 2026 - May 26, 2026\nPick-up time\n9:00 PM\nDrop-off time\n9:00 PM\nFilters\nPrice\n$10\nto\nAny\nPassengers\n1\nClass\nAny class\nMake\nAny make\nReset all\n\n10 vehicles available\n\nSort\nRecommended\nToyota Corolla\nYear\n2020\nClass\nCompact\nPassengers\n5\nDoors\n4\n\n$45/hr\n\n$2,160\nestimated total\n\nBook now\nChevrolet Spark\nYear\n2020\nClass\nSubcompact\nPassengers\n4\nDoors\n4\n\n$32/hr\n\n$1,536\nestimated total\n\nBook now\nNissan Rogue\nYear\n2021\nClass\nSUV\nPassengers\n5\nDoors\n5\n\n$58/hr\n\n$2,784\nestimated total\n\nBook now\nHyundai Santa Fe\nYear\n2022\nClass\nSUV\nPassengers\n7\nDoors\n5\n\n$72/hr\n\n$3,456\nestimated total\n\nBook now\nVolkswagen Golf\nYear\n2023\nClass\nCompact\nPassengers\n5\nDoors\n5\n\n$56/hr\n\n$2,688\nestimated total\n\nBook now\nMercedes-Benz C-Class\nYear\n2024\nClass\nLuxury\nPassengers\n5\nDoors\n4\n\n$220/hr\n\n$10,560\nestimated total\n\nBook now\nBMW X5\nYear\n2024\nClass\nSUV\nPassengers\n5\nDoors\n4\n\n$170/hr\n\n$8,160\nestimated total\n\nBook now\nMazda CX-9\nYear\n2024\nClass\nSUV\nPassengers\n7\nDoors\n5\n\n$70/hr\n\n$3,360\nestimated total\n\nBook now\nChrysler Pacifica\nYear\n2024\nClass\nMinivan\nPassengers\n8\nDoors\n5\n\n$80/hr\n\n$3,840\nestimated total\n\nBook now\nJeep Wrangler\nYear\n2021\nClass\nSUV\nPassengers\n5\nDoors\n4\n\n$85/hr\n\n$4,080\nestimated total\n\nBook now",
+    "reservationDateText": "May 24, 2026 - May 26, 2026",
+    "hasPickupDateLabel": false,
+    "hasDropoffDateLabel": false,
+    "resultText": "10 vehicles available"
+  }
+}

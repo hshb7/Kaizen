@@ -1,0 +1,113 @@
+{
+  "name": "01-default-clean-controls",
+  "note": "Default controls use date range, compact class/make dropdowns, and no separate exact inputs.",
+  "state": {
+    "text": "Kaizen Wheels\nReservation dates\nMay 22, 2026 - May 23, 2026\nPick-up time\n9:00 PM\nDrop-off time\n9:00 PM\nFilters\nPrice\n$10\nto\nAny\nPassengers\n1\nClass\nAny class\nMake\nAny make\nReset all\n\n8 vehicles available\n\nSort\nRecommended\nFord Mustang\nYear\n2022\nClass\nSports\nPassengers\n4\nDoors\n2\n\n$160/hr\n\n$3,840\nestimated total\n\nBook now\nNissan Rogue\nYear\n2021\nClass\nSUV\nPassengers\n5\nDoors\n5\n\n$58/hr\n\n$1,392\nestimated total\n\nBook now\nHyundai Santa Fe\nYear\n2022\nClass\nSUV\nPassengers\n7\nDoors\n5\n\n$72/hr\n\n$1,728\nestimated total\n\nBook now\nVolkswagen Golf\nYear\n2023\nClass\nCompact\nPassengers\n5\nDoors\n5\n\n$56/hr\n\n$1,344\nestimated total\n\nBook now\nMercedes-Benz C-Class\nYear\n2024\nClass\nLuxury\nPassengers\n5\nDoors\n4\n\n$220/hr\n\n$5,280\nestimated total\n\nBook now\nMazda CX-9\nYear\n2024\nClass\nSUV\nPassengers\n7\nDoors\n5\n\n$70/hr\n\n$1,680\nestimated total\n\nBook now\nChrysler Pacifica\nYear\n2024\nClass\nMinivan\nPassengers\n8\nDoors\n5\n\n$80/hr\n\n$1,920\nestimated total\n\nBook now\nJeep Wrangler\nYear\n2021\nClass\nSUV\nPassengers\n5\nDoors\n4\n\n$85/hr\n\n$2,040\nestimated total\n\nBook now",
+    "hasPickupDateLabel": false,
+    "hasDropoffDateLabel": false,
+    "hasExactMaxLabel": false,
+    "hasExactPassengersLabel": false,
+    "reservationDateText": "May 22, 2026 - May 23, 2026",
+    "filterButtons": [
+      "$10",
+      "Any",
+      "1",
+      "Any class",
+      "Any make"
+    ],
+    "visibleInputs": [],
+    "sliders": [
+      {
+        "value": "10",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "250",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "1",
+        "min": "1",
+        "max": "10"
+      }
+    ],
+    "menuItems": [],
+    "resultCountText": "8 vehicles available",
+    "cards": [
+      {
+        "name": "Ford Mustang",
+        "class": "Sports",
+        "passengers": 4,
+        "hourly": "$160/hr",
+        "totals": [
+          "$3,840"
+        ]
+      },
+      {
+        "name": "Nissan Rogue",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$58/hr",
+        "totals": [
+          "$1,392"
+        ]
+      },
+      {
+        "name": "Hyundai Santa Fe",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$72/hr",
+        "totals": [
+          "$1,728"
+        ]
+      },
+      {
+        "name": "Volkswagen Golf",
+        "class": "Compact",
+        "passengers": 5,
+        "hourly": "$56/hr",
+        "totals": [
+          "$1,344"
+        ]
+      },
+      {
+        "name": "Mercedes-Benz C-Class",
+        "class": "Luxury",
+        "passengers": 5,
+        "hourly": "$220/hr",
+        "totals": [
+          "$5,280"
+        ]
+      },
+      {
+        "name": "Mazda CX-9",
+        "class": "SUV",
+        "passengers": 7,
+        "hourly": "$70/hr",
+        "totals": [
+          "$1,680"
+        ]
+      },
+      {
+        "name": "Chrysler Pacifica",
+        "class": "Minivan",
+        "passengers": 8,
+        "hourly": "$80/hr",
+        "totals": [
+          "$1,920"
+        ]
+      },
+      {
+        "name": "Jeep Wrangler",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$85/hr",
+        "totals": [
+          "$2,040"
+        ]
+      }
+    ]
+  }
+}

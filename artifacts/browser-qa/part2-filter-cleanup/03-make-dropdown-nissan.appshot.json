@@ -1,0 +1,99 @@
+{
+  "name": "03-make-dropdown-nissan",
+  "note": "Make dropdown shows a checked Nissan item and results narrow to Nissan.",
+  "state": {
+    "text": "Kaizen Wheels\nReservation dates\nMay 22, 2026 - May 23, 2026\nPick-up time\n9:00 PM\nDrop-off time\n9:00 PM\nFilters\nPrice\n$10\nto\nAny\nPassengers\n1\nClass\nAny class\nMake\nNissan\nReset all\n\n1 vehicles available\n\nSort\nRecommended\nNissan Rogue\nYear\n2021\nClass\nSUV\nPassengers\n5\nDoors\n5\n\n$58/hr\n\n$1,392\nestimated total\n\nBook now\nBMW\nChevrolet\nChrysler\nFord\nHonda\nHyundai\nJeep\nMazda\nMercedes-Benz\nNissan\nToyota\nVolkswagen",
+    "hasPickupDateLabel": false,
+    "hasDropoffDateLabel": false,
+    "hasExactMaxLabel": false,
+    "hasExactPassengersLabel": false,
+    "reservationDateText": "May 22, 2026 - May 23, 2026",
+    "filterButtons": [
+      "$10",
+      "Any",
+      "1",
+      "Any class",
+      "Nissan"
+    ],
+    "visibleInputs": [],
+    "sliders": [
+      {
+        "value": "10",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "250",
+        "min": "10",
+        "max": "250"
+      },
+      {
+        "value": "1",
+        "min": "1",
+        "max": "10"
+      }
+    ],
+    "menuItems": [
+      {
+        "text": "BMW",
+        "checked": "unchecked"
+      },
+      {
+        "text": "Chevrolet",
+        "checked": "unchecked"
+      },
+      {
+        "text": "Chrysler",
+        "checked": "unchecked"
+      },
+      {
+        "text": "Ford",
+        "checked": "unchecked"
+      },
+      {
+        "text": "Honda",
+        "checked": "unchecked"
+      },
+      {
+        "text": "Hyundai",
+        "checked": "unchecked"
+      },
+      {
+        "text": "Jeep",
+        "checked": "unchecked"
+      },
+      {
+        "text": "Mazda",
+        "checked": "unchecked"
+      },
+      {
+        "text": "Mercedes-Benz",
+        "checked": "unchecked"
+      },
+      {
+        "text": "Nissan",
+        "checked": "checked"
+      },
+      {
+        "text": "Toyota",
+        "checked": "unchecked"
+      },
+      {
+        "text": "Volkswagen",
+        "checked": "unchecked"
+      }
+    ],
+    "resultCountText": "1 vehicles available",
+    "cards": [
+      {
+        "name": "Nissan Rogue",
+        "class": "SUV",
+        "passengers": 5,
+        "hourly": "$58/hr",
+        "totals": [
+          "$1,392"
+        ]
+      }
+    ]
+  }
+}

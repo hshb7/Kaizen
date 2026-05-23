@@ -1,0 +1,119 @@
+{
+  "url": "http://localhost:3000/",
+  "resultCountText": "5 vehicles available",
+  "sortLabel": "Recommended",
+  "inputs": [
+    {
+      "value": "",
+      "placeholder": "Any"
+    },
+    {
+      "value": "1",
+      "placeholder": ""
+    }
+  ],
+  "sliders": [
+    {
+      "value": "10",
+      "min": "10",
+      "max": "250"
+    },
+    {
+      "value": "250",
+      "min": "10",
+      "max": "250"
+    },
+    {
+      "value": "1",
+      "min": "1",
+      "max": "10"
+    }
+  ],
+  "classToggles": {
+    "Compact": {
+      "ariaPressed": "true",
+      "dataState": "on"
+    },
+    "Luxury": {
+      "ariaPressed": "false",
+      "dataState": "off"
+    },
+    "Minivan": {
+      "ariaPressed": "false",
+      "dataState": "off"
+    },
+    "SUV": {
+      "ariaPressed": "true",
+      "dataState": "on"
+    },
+    "Sports": {
+      "ariaPressed": "false",
+      "dataState": "off"
+    },
+    "Subcompact": {
+      "ariaPressed": "false",
+      "dataState": "off"
+    }
+  },
+  "makeToggles": {
+    "Nissan": {
+      "ariaPressed": "false",
+      "dataState": "off"
+    },
+    "Ford": {
+      "ariaPressed": "false",
+      "dataState": "off"
+    },
+    "Mercedes-Benz": {
+      "ariaPressed": "false",
+      "dataState": "off"
+    }
+  },
+  "cards": [
+    {
+      "name": "Nissan Rogue",
+      "class": "SUV",
+      "passengers": 5,
+      "hourly": "$58/hr",
+      "totals": [
+        "$1,392"
+      ]
+    },
+    {
+      "name": "Hyundai Santa Fe",
+      "class": "SUV",
+      "passengers": 7,
+      "hourly": "$72/hr",
+      "totals": [
+        "$1,728"
+      ]
+    },
+    {
+      "name": "Volkswagen Golf",
+      "class": "Compact",
+      "passengers": 5,
+      "hourly": "$56/hr",
+      "totals": [
+        "$1,344"
+      ]
+    },
+    {
+      "name": "Mazda CX-9",
+      "class": "SUV",
+      "passengers": 7,
+      "hourly": "$70/hr",
+      "totals": [
+        "$1,680"
+      ]
+    },
+    {
+      "name": "Jeep Wrangler",
+      "class": "SUV",
+      "passengers": 5,
+      "hourly": "$85/hr",
+      "totals": [
+        "$2,040"
+      ]
+    }
+  ]
+}
