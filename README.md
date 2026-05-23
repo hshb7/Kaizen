@@ -1,5 +1,9 @@
 <img src="public/logo.svg" alt="Kaizen Logo" width="64" style="background: #666; padding: 0.25rem; border-radius: 100%; margin-bottom: 1rem;" />
 
+## Submission note
+
+Note on commit history: I worked in incremental checkpoints locally, but accidentally collapsed the public commit history while preparing the final repo. I preserved the AI transcript, verification notes, and decision history in `AI_LOG.md` and `DECISIONS.md`.
+
 ## Project requirements
 
 Out of the box, this project allows users to find and reserve vehicles available for a given time range. You will extend the project by fixing the search filter bug described below and by implementing a new discount type.

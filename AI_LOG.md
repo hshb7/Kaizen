@@ -4,6 +4,8 @@
 
 I used AI to help map the repo, identify root causes, generate edge cases, review implementation options, verify behavior, triage review findings, and polish documentation. I made the final decisions and verified behavior with the checks listed in `DECISIONS.md`.
 
+Note on commit history: I worked in incremental checkpoints locally, but accidentally collapsed the public commit history while preparing the final repo. I preserved the AI transcript, verification notes, and decision history in `AI_LOG.md` and `DECISIONS.md`.
+
 ## Sessions
 
 1. Bootstrap / workflow setup
